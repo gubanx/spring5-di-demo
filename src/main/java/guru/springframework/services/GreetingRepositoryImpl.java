@@ -1,8 +1,8 @@
 package guru.springframework.services;
 
-/**
- * Created by jt on 5/24/17.
- */
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class GreetingRepositoryImpl implements GreetingRepository {
 
     @Override
